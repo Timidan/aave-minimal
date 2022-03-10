@@ -45,7 +45,6 @@ interface IStaticATokenLM is IERC20 {
      * @return amountToWithdraw: underlying/aToken send to `recipient`, dynamic balance
      **/
     function withdraw(
-        address from,
         address recipient,
         uint256 amount,
         bool toUnderlying
